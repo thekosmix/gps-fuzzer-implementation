@@ -38,3 +38,5 @@ curl --location 'http://localhost:9999/fuzzgps' \
 3. Subscribe on command line to check if it's actually publishing: `mosquitto_sub -h localhost -t eyezon/livegps --id dfndmnfnbsfb_cmd_client`
 4. Run front-end: `cd Implementation-of-gps-fuzzer && npm i && npm start`
 5. The last command will open web-browser at port [localhost:3000](http://localhost:3000/) and you'll see a small vehicle moving randomly
+
+https://github.com/thekosmix/gps-fuzzer-implementation/assets/4945731/fcfc8a6b-4300-48b8-83a8-6c2e86879479
