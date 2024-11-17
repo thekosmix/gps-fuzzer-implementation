@@ -1,7 +1,9 @@
 # gps-fuzzer-implementation
-MQTT & Web-Socket (WS) implementation for demo of gps-fuzzer
+If you went through [thetaonelab.com](thetaonelab.com)'s [blog](https://blog.thetaonelab.com/gps-fuzzer-uber-like-backend-which-can-help-publish-data-between-latlong-points-bbb192a2e014) and [codebase](https://github.com/Thetaonelab/gps-fuzzer), you might have realised that it's a little difficult to implement the gps-fuzzer due to instructions not being very clear. I have summarised the way to do it in a step-by-step guide below. 
 
-## install dependancies and projects
+## MQTT & Web-Socket (WS) implementation for demo of gps-fuzzer
+
+### install dependancies and projects
 1. [nodejs & npm](https://nodejs.org/en/download)
 2. [mosquitto](https://mosquitto.org/blog/2011/03/mosquitto-in-mac-homebrew/)
 3. checkout [gps-fuzzer](https://github.com/Thetaonelab/gps-fuzzer) - backend server for producing random lat-long for front-end to consume
